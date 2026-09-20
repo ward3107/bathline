@@ -18,4 +18,16 @@ Changes in this build:
 Pricing scope:
 Labor + basic installation consumables. Finish products are excluded unless agreed otherwise.
 
+## Development
+
+Static site with no build step — open `index.html` directly, or serve the repository root with any static file server.
+
+Run the test suite (engine math + price baseline, and boot-time language/theme precedence):
+
+```
+npm test
+```
+
+The tests live in `tests/` and cover the estimate engine, price-baseline parity, four-language content-key parity, and stored-preference fallbacks. Files not needed at runtime (tests, QA artifacts, notes) are excluded from the Vercel deploy via `.vercelignore`.
+
 Phone / WhatsApp: 053-426-0632

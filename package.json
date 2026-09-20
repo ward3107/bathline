@@ -1,0 +1,12 @@
+{
+  "name": "bathline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Market-calibrated, conversion-first bathroom-renovation landing page with a quantity-aware estimate calculator (Hebrew / Arabic / English / Russian).",
+  "scripts": {
+    "test": "node tests/engine.test.cjs && node tests/preferences.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
