@@ -2,3 +2,5 @@ tests
 README.md
 QA-REPORT.json
 price-baseline.json
+MARKET-PRICING-NOTES.md
+package.json
